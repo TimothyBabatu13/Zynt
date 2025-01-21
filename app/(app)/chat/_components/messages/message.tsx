@@ -61,7 +61,7 @@ const Message: React.FC<Props> = ({ message, className, previousMessage, nextMes
                 </div>
                 <p className={cn(
                     "text-sm font-semibold md:hidden",
-                    isUser ? "text-neutral-900 dark:text-neutral-100" : "text-brand-500 dark:text-brand-500"
+                    isUser ? "text-neutral-900 dark:text-neutral-100" : "text-[#74ff71] dark:text-[#74ff71]"
                 )}>
                     {message.role === 'user' ? 'You' : 'ZnytAi'}
                 </p>
