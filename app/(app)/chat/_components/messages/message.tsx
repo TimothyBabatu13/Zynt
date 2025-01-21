@@ -63,7 +63,7 @@ const Message: React.FC<Props> = ({ message, className, previousMessage, nextMes
                     "text-sm font-semibold md:hidden",
                     isUser ? "text-neutral-900 dark:text-neutral-100" : "text-brand-500 dark:text-brand-500"
                 )}>
-                    {message.role === 'user' ? 'You' : 'The Hive'}
+                    {message.role === 'user' ? 'You' : 'ZnytAi'}
                 </p>
             </div>
             <div className="md:pt-2 w-full max-w-full md:flex-1 md:w-0 overflow-hidden flex flex-col gap-2">
