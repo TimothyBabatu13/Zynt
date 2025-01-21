@@ -26,7 +26,7 @@ const proOptions: ProOptions = { account: 'paid-pro', hideAttribution: true };
 
 const nodeOrigin: NodeOrigin = [0.5, 0.5];
 
-const defaultEdgeOptions = { style: { stroke: '#d19900', strokeWidth: 2, zIndex: 1000 } };
+const defaultEdgeOptions = { style: { stroke: '#74ff71', strokeWidth: 2, zIndex: 1000 } };
 
 const nodeTypes = {
   central: CentralNode,
